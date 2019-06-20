@@ -37,7 +37,7 @@
 
 .intro-container{
     position: relative;
-    top: 200px;
+    top: 250px;
     text-align: center;
 }
 .intro-text{
@@ -78,6 +78,12 @@
 .aboutme-text h1{
     font-size: 2em;
 }
+.about-me-image img{
+  width: 100%;
+  /* max-width: 00px; */
+  height: auto;
+
+}
 .cv-link{
     padding: 10px;
     margin: 15px;
@@ -98,19 +104,31 @@
 /* my works section */
 
 #my-works{
-    background-color: rgba(141, 130, 130, 0.13);
+    background-color: rgba(245, 222, 222, 0.13);
 }
 
 #my-works h1{
     text-align: center;
     font-size: 2em;
+    padding: 10px;
 }
 .my-works-container{
     display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 0.5;
 }
 .my-works-container .works{
     padding: 10px;
     margin: 10px;
-    width: 33%;
+    text-align: center;
+    background-color: rgba(141, 130, 130, 0.13);
+    /* text-align: center; */
     
 }
+.my-works-container .works .image-works{
+  width: 100%;
+}
+/* end of my work section */
+
+/* start of my skill section */
