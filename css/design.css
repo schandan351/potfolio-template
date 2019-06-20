@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#intro{
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(183, 181, 218) 0%, rgba(116,138,35,1) 25%, rgba(125,149,35,1) 43%, rgba(162,193,34,0.4654236694677871) 56%, rgba(121,181,175,1) 79%, rgba(0,212,255,1) 100%);
+}
+
+/* hamburger section */
+.hamburger{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+.hamburger .line{
+    height: 0.3rem;
+    width: 2.5rem;
+    background-color: black;
+    display: block;
+    margin: 0.3rem; 
+}
+.hamburger.active .line:nth-child(1){
+    transform:translateY(0.6rem) rotate(-45deg)
+}
+
+.hamburger.active .line:nth-child(2){
+    display: none;
+}
+.hamburger.active    .line:nth-child(3){
+    transform: translateX(-0.1rem) rotate(45deg)
+}
+
+/* end of hamburger */
+.intro-container{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.intro-text{
+    text-align: center;
+    
+}
+.intro-text h1{
+    font-size: 3em;
+}
+.intro-text h5{
+    font-size: 1.5em;
+}
+.hire-me{
+    padding: 10px;
+    margin: 10px;
+}
+.link-hireme{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(97, 94, 136);
+}
+.link-hireme:hover{
+    background-color: rgba(0,0,0, 0.6);
+}
+
+/* end of intro */
+
