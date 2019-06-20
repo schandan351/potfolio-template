@@ -35,15 +35,35 @@
 
 /* end of hamburger */
 
+/* menu */
+/* .menu-items{
+    display: none;
+}
+
+ul{
+   width: 50%;
+   margin: 0px auto;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li:hover{
+    background-color: rgba(0,0,0,0.2);
+} */
+/* intro section starts */
 .intro-container{
     position: relative;
     top: 250px;
     text-align: center;
 }
-.intro-text{
 
-    
-}
 .intro-text h1{
     font-size: 3em;
 }
@@ -68,6 +88,9 @@
 /* end of intro */
 
 /* start of about me section */
+#about-me{
+    height: 70vh;
+}
 .aboutme-container{
     padding: 10px;
     margin: 10px;
@@ -79,9 +102,8 @@
     font-size: 2em;
 }
 .about-me-image img{
-  width: 100%;
-  /* max-width: 00px; */
-  height: auto;
+  
+  height: 400px;
 
 }
 .cv-link{
@@ -105,6 +127,7 @@
 
 #my-works{
     background-color: rgba(245, 222, 222, 0.13);
+    margin: 10px;
 }
 
 #my-works h1{
@@ -138,6 +161,8 @@
 #myskill{
     text-align: center;
     background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
 }
 #myskill h1{
     padding: 10px;
@@ -156,7 +181,7 @@
     margin: 10px;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    
     transition: all 0.3s;
 }
 .skill:hover{
@@ -193,10 +218,16 @@
     background-color: rgba(141, 130, 130, 0.13);
     box-shadow: 2px 2px 2px 2px black;   
     transition: all 0.3s; 
+
 }
  .services:hover{
     background-color: rgba(0,0,0,0.2);
     cursor: pointer;
+}
+.consulting{
+    background-image: url(/image/people-office-group-team.jpg);
+    background-position: center;
+    background-size: cover;
 }
 /* end of services section */
 
@@ -285,7 +316,7 @@
     margin: 10px;
     display: flex;
     justify-content:flex-end;
-    background-color: whitesmoke;  
+    /* background-color: whitesmoke;   */
 }
 .client-name{
     margin-top: 18px;
@@ -311,7 +342,7 @@
 
 #contact-me .contact{
     display: flex;
-    /* align-items: flex-start; */
+    justify-content: baseline;
 }
 .form-container{
     width: 35%;
@@ -366,3 +397,32 @@ form input[type=text]:hover,form textarea:hover{
     /* background-color: red; */
     font-size: 2rem;
 }
+
+@media screen and (max-width:850px){
+
+    .intro-container{
+        top: 150px;
+        width: 50%;
+        margin: 0px auto;
+    }
+    .intro-text h1{
+        font-size:2em;
+    }
+    .my-works-container{
+        flex-wrap: wrap;
+    }
+
+    .skill-container, .services-container,.post-container,.client-container,.contact, .aboutme-container{
+        flex-wrap: wrap;
+        flex-grow: 0.4;
+    }
+    .my-contact-info{
+        display: none;
+    }
+    .form-container{
+        width: 100%;
+    }
+    #about-me{
+        height: 100vh   ;
+    }
+}   
