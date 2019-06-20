@@ -196,3 +196,56 @@
     cursor: pointer;
 }
 /* end of services section */
+
+/*start of blog section */
+
+#myblog-section{
+    padding: 10px;
+    margin: 10px;
+}
+#myblog-section h1{
+    font-size: 2em;
+    text-align: center;
+} 
+.post-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+.post{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(129, 120, 120, 0.2);
+}
+.post-image img{
+    width: 100%;
+}
+.post:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.post-title{
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px;
+}
+.post-desc{
+    margin: 5px;
+    padding: 5px;
+}
+.post-read-more{
+    padding: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+.post-read-more a{
+    text-decoration: none;
+    font-size: 1em;
+    color: aqua;
+}
+.post-read-more:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+/* end of blog section */
