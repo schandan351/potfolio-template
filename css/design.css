@@ -89,21 +89,29 @@ ul li:hover{
 
 /* start of about me section */
 #about-me{
-    height: 70vh;
+    height: 100vh;
 }
 .aboutme-container{
     padding: 10px;
     margin: 10px;
     display: flex;
+    
+}
+.aboutme-text{
     text-align: center;
 }
 
 .aboutme-text h1{
+    font-size: 2.5em;
+}
+.aboutme-text p{
+    margin: 10px;
+    padding: 10px;
     font-size: 2em;
+
 }
 .about-me-image img{
-  
-  height: 400px;
+  height: 600px;
 
 }
 .cv-link{
