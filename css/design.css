@@ -406,6 +406,14 @@ form input[type=text]:hover,form textarea:hover{
     font-size: 2rem;
 }
 
+/* social links */
+.social-links{
+    margin: 10px;
+}
+.social-links a{
+    padding: 10px;
+}
+/* mobile responsive design added */
 @media screen and (max-width:850px){
 
     .intro-container{
