@@ -176,14 +176,13 @@ ul li:hover{
 /* start of my skill section */
 #myskill{
     text-align: center;
-    background-color: aliceblue;
     padding: 10px;
     margin: 10px;
 }
 #myskill h1{
     padding: 10px;
     margin: 10px;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 .skill-container{
     display: flex;
@@ -192,19 +191,18 @@ ul li:hover{
 }
 
 .skill{
-    background-color: antiquewhite;
+    background-color: rgb(235, 231, 227);
     padding: 10px;
     margin: 10px;
     width: 200px;
     height: 200px;
-    
     transition: all 0.3s;
 }
 .skill:hover{
     background-color: rgba(65, 56, 56, 0.6);
 }
 .skill p{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* end of my skill */
@@ -241,7 +239,7 @@ ul li:hover{
     cursor: pointer;
 }
 .consulting{
-    background-image: url(/image/people-office-group-team.jpg);
+    /* background-image: url(/image/people-office-group-team.jpg); */
     background-position: center;
     background-size: cover;
 }
