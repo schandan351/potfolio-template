@@ -126,7 +126,8 @@ ul li:hover{
 /* my works section */
 
 #my-works{
-    background-color: rgba(245, 222, 222, 0.13);
+    /* background-color: rgba(245, 222, 222, 0.13); */
+    background-color:rgb(223, 216, 216);
     margin: 10px;
 }
 
@@ -229,6 +230,13 @@ ul li:hover{
     background-position: center;
     background-size: cover;
 }
+
+    /* .cloud-computing{
+        background-image: url(/image/cloud-computing.png);
+        background-position: center;
+        background-size: cover;
+    } */
+
 /* end of services section */
 
 /*start of blog section */
