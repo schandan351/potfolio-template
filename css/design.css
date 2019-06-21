@@ -59,9 +59,14 @@ ul li:hover{
 } */
 /* intro section starts */
 .intro-container{
-    position: relative;
+    position: relative; 
     top: 250px;
     text-align: center;
+   
+}
+.intro-text{
+    width: 50%;
+     margin: 0px auto;
 }
 
 .intro-text h1{
@@ -267,7 +272,7 @@ ul li:hover{
     margin: 10px;
 }
 #myblog-section h1{
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
 } 
 .post-container{
@@ -280,7 +285,8 @@ ul li:hover{
 .post{
     margin: 10px;
     padding: 10px;
-    background-color: rgba(129, 120, 120, 0.2);
+    background-color: rgba(214, 221, 231, 0.2);
+    border-radius: 10px;
 }
 .post-image img{
     width: 100%;
