@@ -447,6 +447,16 @@ form input[type=text]:hover,form textarea:hover{
         width: 100%;
     }
     #about-me{
-        height: 100vh   ;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .about-me-image{    
+        background-position: contain;
+        width: 100%;
+    }
+    .about-me-image img{
+        height: auto;
+        width: 100%;
+        
     }
 }   
