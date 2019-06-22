@@ -37,14 +37,17 @@
 /* end of hamburger */
 
 .menu-items{
-    position: absolute;
-    width:200rem;
-    height: 80vh;
+    position: absolute ; 
+    width:20rem;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    transform: translateX(-30rem);
+    transform: translateX(-40rem);
+    overflow-x: hidden;
+    background-color: rgba(0,0,0,0.1);
+    transition: all 0.3s;
 }
 .menu-items ul li{
     padding: 10px;
@@ -68,7 +71,6 @@
     position: relative; 
     top: 250px;
     text-align: center;
-   
 }
 .intro-text{
     width: 50%;
