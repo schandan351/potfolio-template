@@ -14,6 +14,7 @@
     float: right;
     margin: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 .hamburger .line{
     height: 0.3rem;
@@ -35,28 +36,33 @@
 
 /* end of hamburger */
 
-/* menu */
-/* .menu-items{
-    display: none;
+.menu-items{
+    position: absolute;
+    width:200rem;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transform: translateX(-30rem);
 }
-
-ul{
-   width: 50%;
-   margin: 0px auto;
-}
-ul li{
-    display: inline-block;
+.menu-items ul li{
     padding: 10px;
     margin: 10px;
-    background-color: rgba(0,0,0,0.1);
 }
-ul li a{
+.menu-items ul li a{
     text-decoration: none;
-    color: black;
+    font-size: 2rem;
+    color: green;
 }
-ul li:hover{
-    background-color: rgba(0,0,0,0.2);
-} */
+.menu-items.open{
+    transform:translateX(0px);
+}
+
+
+
+
+
 /* intro section starts */
 .intro-container{
     position: relative; 
@@ -149,7 +155,6 @@ ul li:hover{
     padding: 10px;
 }
 .my-works-container{
-    /* background-color:rgb(240, 245, 245); */
     display: flex;
     margin: 10px;
     padding: 10px;
@@ -158,9 +163,7 @@ ul li:hover{
 .my-works-container .works{
     padding: 10px;
     margin: 10px;
-    /* text-align: center; */
     background-color: rgba(6, 141, 252, 0.1);
-    /* text-align: center; */
     border-radius: 10px;
     transition: all 0.3s;
     
@@ -225,7 +228,6 @@ ul li:hover{
 }
 
 .services-container{
-    /* background-color: aliceblue; */
     padding: 10px;
     margin: 10px;
     display: flex;
@@ -256,12 +258,6 @@ ul li:hover{
     background-position: center;
     background-size: cover;
 }
-
-    /* .cloud-computing{
-        background-image: url(/image/cloud-computing.png);
-        background-position: center;
-        background-size: cover;
-    } */
 
 /* end of services section */
 
@@ -442,7 +438,6 @@ form input[type=text]:hover,form textarea:hover{
 }
 /* mobile responsive design added */
 @media screen and (max-width:850px){
-
     .intro-container{
         top: 150px;
         width: 50%;
