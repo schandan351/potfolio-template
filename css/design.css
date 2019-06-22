@@ -62,10 +62,6 @@
     transform:translateX(0px);
 }
 
-
-
-
-
 /* intro section starts */
 .intro-container{
     position: relative; 
@@ -165,7 +161,7 @@
 .my-works-container .works{
     padding: 10px;
     margin: 10px;
-    background-color: rgba(6, 141, 252, 0.1);
+    background-color: rgb(223, 216, 216);
     border-radius: 10px;
     transition: all 0.3s;
     
@@ -305,15 +301,15 @@
 .post-read-more{
     padding: 10px;
     margin: 10px;
-    background-color: aliceblue;
+    background-color: black;
 }
 .post-read-more a{
     text-decoration: none;
     font-size: 1em;
-    color: aqua;
+    color: aliceblue;
 }
 .post-read-more:hover{
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
 }
 /* end of blog section */
 
@@ -438,6 +434,19 @@ form input[type=text]:hover,form textarea:hover{
 .social-links a{
     padding: 10px;
 }
+.social-links .fa-facebook{
+color: rgb(81, 81, 231);
+}
+.social-links .fa-github{
+    color: black;
+}
+.social-links .fa-envelope{
+    color:rgb(109, 50, 50);
+}
+.social-links .fa-slack{
+    color: blueviolet;
+}
+/* end of sociaal links */
 /* mobile responsive design added */
 @media screen and (max-width:850px){
     .intro-container{
