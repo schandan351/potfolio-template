@@ -53,6 +53,12 @@
     padding: 10px;
     margin: 10px;
 }
+.menu-items ul li:hover{
+    background-color: rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
 .menu-items ul li a{
     text-decoration: none;
     font-size: 2rem;
@@ -61,6 +67,12 @@
 .menu-items.open{
     transform:translateX(0px);
 }
+.close-menu{
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
 
 /* intro section starts */
 .intro-container{
@@ -98,7 +110,7 @@
 
 /* start of about me section */
 #about-me{
-    height: 100vh;
+    height: 110vh;
 }
 .aboutme-container{
     padding: 10px;
@@ -143,7 +155,6 @@
 /* my works section */
 
 #my-works{
-    
     margin: 10px;
 }
 
@@ -184,6 +195,7 @@
     text-align: center;
     padding: 10px;
     margin: 10px;
+
 }
 #myskill h1{
     padding: 10px;
@@ -193,7 +205,6 @@
 .skill-container{
     display: flex;
     justify-content: center;
-    align-content: space-between;
 }
 
 .skill{
@@ -202,6 +213,7 @@
     margin: 10px;
     width: 200px;
     height: 200px;
+    /* border-radius: 50%; */
     transition: all 0.3s;
 }
 .skill:hover{
@@ -400,14 +412,14 @@
     border-radius: 4px;
 }
 
-.form-container form button[type=submit]{
+.form-container form button{
     padding: 10px;
     margin: 10px;
     cursor: pointer;
     background-color: gray;
     border: none;
     border-radius: 4px;
-    width: 15%;
+    width: 100px;
 
 }
 form input[type=text]:hover,form textarea:hover{
@@ -450,14 +462,15 @@ color: rgb(81, 81, 231);
 
 
 /* mobile responsive design added */
-@media screen and (max-width:850px){
+@media screen and (max-width:900px){
     .intro-container{
-        top: 150px;
-        width: 50%;
-        margin: 0px auto;
+        top: 40%;
     }
     .intro-text h1{
-        font-size:2em;
+        font-size:1em;
+    }
+    .intro-text h2{
+        font-size: 1em;
     }
     .my-works-container{
         flex-wrap: wrap;
@@ -476,19 +489,24 @@ color: rgb(81, 81, 231);
     #about-me{
         flex-wrap: wrap;
         height: auto;
+        
     }
     .about-me-image{    
         background-position: contain;
         width: 100%;
     }
     .about-me-image img{
-        height: auto;
         width: 100%;
+        height: auto;
         
+    }
+    .aboutme-text{
+        font-size: .5em;
     }
     .menu-items{
         z-index: 1;
         width: 100%;
         background-color: rgba(0,0,0,1);
     }
+
 }   
