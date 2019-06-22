@@ -7,7 +7,5 @@ const typing=()=>{
         i++;
         setTimeout(typing,150);
     }
-
 }
-
 typing();
