@@ -447,6 +447,8 @@ color: rgb(81, 81, 231);
     color: blueviolet;
 }
 /* end of sociaal links */
+
+
 /* mobile responsive design added */
 @media screen and (max-width:850px){
     .intro-container{
@@ -483,5 +485,10 @@ color: rgb(81, 81, 231);
         height: auto;
         width: 100%;
         
+    }
+    .menu-items{
+        z-index: 1;
+        width: 100%;
+        background-color: rgba(0,0,0,1);
     }
 }   
