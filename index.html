@@ -24,10 +24,12 @@
                 <ul>
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#my-works">My works</a></li>
-                    <li><a href="#myskill">skills</a></li>
+                    <li><a href="#myskill">Skills</a></li>
                     <li><a href="#service">My services</a></li>
-                    <li><a href="#myblog-section">blog</a></li>
+                    <li><a href="#myblog-section">Blog</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
+                    <span class="close-menu">X</span>
+
                 </ul>
             </div>
         <div class="intro-container">
@@ -120,7 +122,7 @@
                 <div class="skill">
                     <p>JAVASCRIPT</p>
                 </div>
-                <div class="skill">
+                <div class="skill python">
                     <p>PYTHON</p>
                 </div>
                 <div class="skill">
@@ -277,9 +279,10 @@
         <div class="contact">
                 <div class="form-container">
                     <form action="" name="contact_form" onsubmit="return validate()">
+                        <p id="error-msg"> </p>
                         <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="name" name="firstname">
-                        
+                        <input type="text" id="name" placeholder="name" name="name">
+                
                         <label for="email">Email</label>
                         <input type="text" id="email" placeholder="email" >
             
@@ -310,11 +313,10 @@
     </section>
 <!-- end of contact form section -->
 </body>
+<script src="js/menu-animate.js"></script>
 <script src="/js/hamburger.js"></script>
 <script src="js/type.js"></script>
 <script src="js/form_validate.js"></script>
-<script src="js/menu-animate.js"></script>
-
 
 
 </html>
