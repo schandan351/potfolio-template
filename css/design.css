@@ -456,16 +456,16 @@ form input[type=text]:hover,form textarea:hover{
     padding: 10px;
 }
 .social-links .fa-facebook{
-color: rgb(81, 81, 231);
+color: #3b5998;
 }
 .social-links .fa-github{
     color: black;
 }
 .social-links .fa-envelope{
-    color:rgb(109, 50, 50);
+    color:#B23121;
 }
-.social-links .fa-slack{
-    color: blueviolet;
+.social-links .fa-linkedin{
+    color: #0e76a8;
 }
 /* end of sociaal links */
 
